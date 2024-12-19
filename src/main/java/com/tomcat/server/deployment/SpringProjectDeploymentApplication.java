@@ -17,5 +17,6 @@ public class SpringProjectDeploymentApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("executing the job " + new Date());
+		System.out.println("Build Successful");
 	}
 }

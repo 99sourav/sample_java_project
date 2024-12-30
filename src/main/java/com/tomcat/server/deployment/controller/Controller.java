@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/fetch")
     public String fetchData(){
+        System.out.println("request is processng...");
         return "hello world";
     }
 }

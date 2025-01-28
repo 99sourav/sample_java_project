@@ -5,9 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-    @GetMapping("/fetch")
+    @GetMapping("/get")
     public String fetchData(){
-        System.out.println("request is processng...");
-        return "hello world";
+        System.out.println("merge branch");
+        System.out.println("conflicts");
+        return "sourav";
     }
 }

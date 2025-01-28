@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-    @GetMapping("/get")
+    @PostMapping("/get")
     public String fetchData(){
         System.out.println("merge branch");
         System.out.println("conflicts");
